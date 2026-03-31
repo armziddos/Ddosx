@@ -17,12 +17,12 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8778944344:AAEg3AWMBth9ZfdHzB2PRg_VMO38wwsDFes"
+BOT_TOKEN = "8654967015:AAEfipFZa1XLzLhS5sIUtXIOslsSvioDKh0"
 YML_FILE_PATH = ".github/workflows/main.yml"
 BINARY_FILE_NAME = "flame"
 BINARY_STORAGE_PATH = "stored_binary.bin"
-ADMIN_IDS = [8438136320]
-OWNER_USERNAME = "@Rytce"
+ADMIN_IDS = [8691720183]
+OWNER_USERNAME = "@Ddosxarm"
 
 # ==================== BOLD TEXT CONVERTER ====================
 def bold(text):
@@ -62,7 +62,7 @@ def load_links():
             "channels": [
                 {
                     "name": "Private Channel",
-                    "username": "@NEON_X_PUBLIC",
+                    "username": "@",
                     "type": "private",
                     "invite_link": "",
                     "enabled": True
@@ -76,8 +76,8 @@ def load_links():
                 }
             ],
             "free_group": {
-                "link": "https://t.me/+vrD7yD_euJxhMDg0",
-                "id": -1003876101784,
+                "link": "",
+                "id": -,
                 "enabled": True
             },
             "referral": {
@@ -106,8 +106,8 @@ def load_free_settings():
             "max_duration": 60,
             "cooldown": 300,
             "max_attacks_per_day": 3,
-            "feedback_required": True,
-            "free_group_id": -1003876101784
+            "feedback_required": TTrue
+            "free_group_id": -
         }
         save_free_settings(default_settings)
         return default_settings
